@@ -1,0 +1,335 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5398426198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefn.beforeRun()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "user must be able to login  and open a new account with valid credentials",
+        "description": "",
+        "id": "tf-login-and-new-a/c-functionality-validation;user-must-be-able-to-login--and-open-a-new-account-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 749306661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664371922,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the TF login page",
+            "match": {
+              "location": "LoginStepDefn.user_is_on_the_TF_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171109224,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135634129,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4092927993,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks signin button",
+            "match": {
+              "location": "LoginStepDefn.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 411706873,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefn.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2102594229,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on bank and cash button",
+            "match": {
+              "location": "LoginStepDefn.user_clicks_on_bank_and_cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2710475879,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on new account button",
+            "match": {
+              "location": "LoginStepDefn.user_clicks_on_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4012013380,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should land in add new account page",
+            "match": {
+              "location": "LoginStepDefn.user_should_land_in_add_new_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150150228,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters accountTitle as \"Vishnu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vishnu",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_accountTitle_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131791187,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters description as \"Saving A/C\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Saving A/C",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_description_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119543903,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters initialBalance as \"100,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100,000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_initialBalance_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118596402,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters accountNumber as \"706196191\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "706196191",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_accountNumber_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114253781,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters contactPerson as \"Laxhmi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laxhmi",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_contactPerson_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123932441,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters phone as \"723545678999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "723545678999",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_phone_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4126134273,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters url as \"www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDefn.user_enters_url_as(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1402900086,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "LoginStepDefn.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4271601017,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should be able to validate new account created",
+            "match": {
+              "location": "LoginStepDefn.user_should_be_able_to_validate_new_account_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TF login and new a/c functionality validation",
+    "description": "",
+    "id": "tf-login-and-new-a/c-functionality-validation",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/TF_Login.feature"
+  }
+]
